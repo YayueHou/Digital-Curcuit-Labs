@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sim_1/new/Sim.v,1623649127,verilog,,,,Sim,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/Loop.v,1623654077,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/PortCom.v,,Loop,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/PortCom.v,1623649391,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/getSig.v,,PortCom,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/getSig.v,1623657800,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/senSig.v,,getSig,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sources_1/new/senSig.v,1623657909,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication.srcs/sim_1/new/Sim.v,,senSig,,,,,,,,

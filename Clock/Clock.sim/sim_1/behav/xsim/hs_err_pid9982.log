@@ -1,0 +1,22 @@
+#
+# An unexpected error has occurred (6)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f1af8b98210]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcb) [0x7f1af8b9818b]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x12b) [0x7f1af8b77859]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d) [0x7f1af8fff33d]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(+0x8e316) [0x7f1af8ffd316]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(+0x8e361) [0x7f1af8ffd361]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(__cxa_rethrow+0x46) [0x7f1af8ffd5c6]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(_ZNSo5writeEPKcl+0x13d) [0x7f1af907afcd]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(+0x5218d) [0x7f1aaa15818d]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(SimBridge::WdbScalarBTree::addValue(long long, unsigned char)+0x1a1) [0x7f1aaa17abb1]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(SimBridge::WdbAddressBTreeManagerImp::storeEvent(long long, long long, unsigned char)+0x257) [0x7f1aaa150cd7]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(+0x51013) [0x7f1aaa157013]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(SimBridge::WdbAddressBTreeManagerImp::addLiveEvent(SimBridge::WdbLiveEvent const*, std::function<void (long long, long long, unsigned char)> const&)+0xb1) [0x7f1aaa151701]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(SimBridge::WdbAddressBTreeManager::addEventBuffered(SimBridge::WdbLiveEvent const*)+0x68) [0x7f1aaa1517a8]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/librdi_simbridge_kernel.so(SimBridge::WdbSharedMemReader::runReadThread(SimBridge::WdbIEventBlockDatabase*)+0x7d) [0x7f1aaa17edbd]
+/home/houyayue/hodepoint/VIVADO/Vivado/2020.2/lib/lnx64.o/libboost_thread.so(+0xfa0d) [0x7f1af7459a0d]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x9609) [0x7f1af8b38609]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x43) [0x7f1af8c74293]

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1623658013">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-SYSDEF" Name="PortCom.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="PortCom.ltx"/>
+  <File Type="BG-BGN" Name="PortCom.bgn"/>
+  <File Type="NPI_FILE" Name="PortCom.npi"/>
+  <File Type="BG-DRC" Name="PortCom.drc"/>
+  <File Type="RNPI_FILE" Name="PortCom.rnpi"/>
+  <File Type="CFI_FILE" Name="PortCom.cfi"/>
+  <File Type="RCFI_FILE" Name="PortCom.rcfi"/>
+  <File Type="PDI-FILE" Name="PortCom.pdi"/>
+  <File Type="BITSTR-MMI" Name="PortCom.mmi"/>
+  <File Type="BITSTR-BMM" Name="PortCom_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="PortCom.nky"/>
+  <File Type="BITSTR-RBT" Name="PortCom.rbt"/>
+  <File Type="BITSTR-MSK" Name="PortCom.msk"/>
+  <File Type="RBD_FILE" Name="PortCom.rbd"/>
+  <File Type="BG-BIN" Name="PortCom.bin"/>
+  <File Type="BG-BIT" Name="PortCom.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="PortCom_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="PortCom_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="PortCom_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="PortCom.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PortCom_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PortCom_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PortCom_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PortCom_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PortCom_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="PortCom_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PortCom_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="PortCom_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PortCom_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="PortCom_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PortCom_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PortCom_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="PortCom_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="PortCom_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="PortCom_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PortCom_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PortCom_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PortCom_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PortCom_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="PortCom_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="PortCom_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="PortCom_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PortCom_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="PortCom_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PortCom_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="PortCom_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="PortCom_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PortCom_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PortCom_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PortCom_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="PortCom_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PortCom_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PortCom_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="PortCom_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PortCom_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="PortCom_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PortCom_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="PortCom_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="PortCom_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="PortCom_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="PortCom_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="PortCom_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="PortCom_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="PortCom.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="PortCom_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="PortCom_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="PortCom_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="PortCom_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="PortCom_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="PortCom_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="PortCom_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="PortCom.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Loop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/getSig.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/senSig.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PortCom.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PortCom"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/portcon.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

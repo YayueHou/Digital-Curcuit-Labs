@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PortCommunication.srcs/sources_1/new/Loop.v" \
+"../../../../PortCommunication.srcs/sources_1/new/PortCom.v" \
+"../../../../PortCommunication.srcs/sources_1/new/getSig.v" \
+"../../../../PortCommunication.srcs/sources_1/new/senSig.v" \
+"../../../../PortCommunication.srcs/sim_1/new/Sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

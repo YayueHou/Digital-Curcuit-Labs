@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/houyayue/hodepoint/TextCode/Clock/Clock.srcs/sources_1/new/Num_Clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Num_Clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/houyayue/hodepoint/TextCode/Clock/Clock.srcs/sim_1/new/Clocksm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clocksm

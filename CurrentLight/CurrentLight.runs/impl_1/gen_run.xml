@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1622138983">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-SYSDEF" Name="CuLigh.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CuLigh.ltx"/>
+  <File Type="BG-BGN" Name="CuLigh.bgn"/>
+  <File Type="NPI_FILE" Name="CuLigh.npi"/>
+  <File Type="BG-DRC" Name="CuLigh.drc"/>
+  <File Type="RNPI_FILE" Name="CuLigh.rnpi"/>
+  <File Type="CFI_FILE" Name="CuLigh.cfi"/>
+  <File Type="RCFI_FILE" Name="CuLigh.rcfi"/>
+  <File Type="PDI-FILE" Name="CuLigh.pdi"/>
+  <File Type="BITSTR-MMI" Name="CuLigh.mmi"/>
+  <File Type="BITSTR-BMM" Name="CuLigh_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="CuLigh.nky"/>
+  <File Type="BITSTR-RBT" Name="CuLigh.rbt"/>
+  <File Type="BITSTR-MSK" Name="CuLigh.msk"/>
+  <File Type="RBD_FILE" Name="CuLigh.rbd"/>
+  <File Type="BG-BIN" Name="CuLigh.bin"/>
+  <File Type="BG-BIT" Name="CuLigh.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CuLigh_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CuLigh_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CuLigh_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="CuLigh.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CuLigh_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CuLigh_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CuLigh_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CuLigh_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CuLigh_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CuLigh_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CuLigh_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="CuLigh_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CuLigh_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="CuLigh_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CuLigh_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CuLigh_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="CuLigh_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CuLigh_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="CuLigh_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="CuLigh_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CuLigh_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CuLigh_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CuLigh_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="CuLigh_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="CuLigh_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="CuLigh_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CuLigh_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="CuLigh_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CuLigh_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="CuLigh_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="CuLigh_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CuLigh_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CuLigh_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CuLigh_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="CuLigh_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CuLigh_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CuLigh_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="CuLigh_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CuLigh_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="CuLigh_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CuLigh_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="CuLigh_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="CuLigh_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="CuLigh_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="CuLigh_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CuLigh_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="CuLigh_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CuLigh.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CuLigh_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="CuLigh_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CuLigh_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="CuLigh_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CuLigh_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="CuLigh_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CuLigh_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="CuLigh.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CuLigh.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CuLigh"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/CulighCon.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/name.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;WRITE_BITSTREAM;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="$PSRCDIR/name.tcl">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

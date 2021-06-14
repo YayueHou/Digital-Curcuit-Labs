@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/houyayue/hodepoint/VIVADO/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 0fe4c04ec958472bb0bb0fbd33a6da73 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L fir_compiler_v7_2_15 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fir_tb_behav xil_defaultlib.fir_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-8333] binding VHDL entity 'fir_compiler_1_default' does not have port 'aresetn' [/home/houyayue/hodepoint/TextCode/BlueModule/BlueModule.srcs/sim_1/new/testbench.v:32]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
