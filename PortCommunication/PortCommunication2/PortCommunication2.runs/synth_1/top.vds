@@ -1,0 +1,314 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 20 01:43:22 2021
+# Process ID: 33527
+# Current directory: /home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.runs/synth_1
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.runs/synth_1/top.vds
+# Journal file: /home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33580
+WARNING: [Synth 8-2507] parameter declaration becomes local in resv_urt with formal parameter declaration list [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in send_urt with formal parameter declaration list [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/send_urt.v:33]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2293.332 ; gain = 0.000 ; free physical = 9222 ; free virtual = 25860
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/top.v:22]
+	Parameter s0 bound to: 3'b000 
+	Parameter s1 bound to: 3'b001 
+	Parameter CLK bound to: 50000000 - type: integer 
+	Parameter POTTER bound to: 115200 - type: integer 
+	Parameter POTTERT bound to: 434 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'send_urt' [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/send_urt.v:2]
+	Parameter CLK bound to: 50000000 - type: integer 
+	Parameter POTTER bound to: 115200 - type: integer 
+	Parameter UNABLE bound to: 4'b0000 
+	Parameter ss bound to: 4'b0001 
+	Parameter s0 bound to: 4'b0010 
+	Parameter s1 bound to: 4'b0011 
+	Parameter s2 bound to: 4'b0100 
+	Parameter s3 bound to: 4'b0101 
+	Parameter s4 bound to: 4'b0110 
+	Parameter s5 bound to: 4'b0111 
+	Parameter s6 bound to: 4'b1000 
+	Parameter s7 bound to: 4'b1001 
+	Parameter se bound to: 4'b1010 
+	Parameter POTTERT bound to: 434 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'send_urt' (1#1) [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/send_urt.v:2]
+INFO: [Synth 8-6157] synthesizing module 'resv_urt' [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:2]
+	Parameter CLK bound to: 50000000 - type: integer 
+	Parameter POTTER bound to: 115200 - type: integer 
+	Parameter UNABLE bound to: 4'b0000 
+	Parameter ss bound to: 4'b0001 
+	Parameter s0 bound to: 4'b0010 
+	Parameter s1 bound to: 4'b0011 
+	Parameter s2 bound to: 4'b0100 
+	Parameter s3 bound to: 4'b0101 
+	Parameter s4 bound to: 4'b0110 
+	Parameter s5 bound to: 4'b0111 
+	Parameter s6 bound to: 4'b1000 
+	Parameter s7 bound to: 4'b1001 
+	Parameter se bound to: 4'b1010 
+	Parameter POTTERT bound to: 434 - type: integer 
+INFO: [Synth 8-251] fall [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:64]
+INFO: [Synth 8-251] ss [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:70]
+INFO: [Synth 8-251] start [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:72]
+INFO: [Synth 8-251] clk [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:179]
+INFO: [Synth 8-251] 1'bx 
+ [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:194]
+WARNING: [Synth 8-85] always block has no event control specified [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:190]
+INFO: [Synth 8-251] st:1'b1 
+ [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:200]
+INFO: [Synth 8-6155] done synthesizing module 'resv_urt' (2#1) [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v:2]
+WARNING: [Synth 8-85] always block has no event control specified [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/top.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/top.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2293.332 ; gain = 0.000 ; free physical = 9235 ; free virtual = 25880
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2293.332 ; gain = 0.000 ; free physical = 9919 ; free virtual = 26565
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2293.332 ; gain = 0.000 ; free physical = 9919 ; free virtual = 26565
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2293.332 ; gain = 0.000 ; free physical = 9912 ; free virtual = 26558
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/constrs_1/new/con.xdc]
+Finished Parsing XDC File [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/constrs_1/new/con.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/constrs_1/new/con.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.289 ; gain = 0.000 ; free physical = 9873 ; free virtual = 26534
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.289 ; gain = 0.000 ; free physical = 9873 ; free virtual = 26534
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9939 ; free virtual = 26600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9939 ; free virtual = 26600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9939 ; free virtual = 26600
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'send_urt'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'resv_urt'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  UNABLE |                      00000000001 |                             0000
+                      ss |                      00000000010 |                             0001
+                      s0 |                      00000000100 |                             0010
+                      s1 |                      00000001000 |                             0011
+                      s2 |                      00000010000 |                             0100
+                      s3 |                      00000100000 |                             0101
+                      s4 |                      00001000000 |                             0110
+                      s5 |                      00010000000 |                             0111
+                      s6 |                      00100000000 |                             1000
+                      s7 |                      01000000000 |                             1001
+                      se |                      10000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'send_urt'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  UNABLE |                      00000000001 |                             0000
+                      ss |                      00000000010 |                             0001
+                      s0 |                      00000000100 |                             0010
+                      s1 |                      00000001000 |                             0011
+                      s2 |                      00000010000 |                             0100
+                      s3 |                      00000100000 |                             0101
+                      s4 |                      00001000000 |                             0110
+                      s5 |                      00010000000 |                             0111
+                      s6 |                      00100000000 |                             1000
+                      s7 |                      01000000000 |                             1001
+                      se |                      10000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'resv_urt'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                                0 |                              000
+                      s1 |                                1 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9928 ; free virtual = 26592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   21 Bit       Adders := 3     
++---Registers : 
+	               21 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   21 Bit        Muxes := 5     
+	  11 Input    8 Bit        Muxes := 2     
+	  11 Input    4 Bit        Muxes := 2     
+	  11 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9889 ; free virtual = 26562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9780 ; free virtual = 26460
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9763 ; free virtual = 26443
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9763 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    15|
+|3     |LUT1   |     2|
+|4     |LUT2   |    24|
+|5     |LUT3   |    20|
+|6     |LUT4   |    12|
+|7     |LUT5   |    10|
+|8     |LUT6   |    51|
+|9     |FDCE   |    95|
+|10    |FDPE   |     5|
+|11    |FDRE   |     8|
+|12    |IBUF   |     3|
+|13    |OBUF   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9762 ; free virtual = 26442
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2357.289 ; gain = 0.000 ; free physical = 9822 ; free virtual = 26502
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2357.289 ; gain = 63.957 ; free physical = 9822 ; free virtual = 26502
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.289 ; gain = 0.000 ; free physical = 9903 ; free virtual = 26587
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2357.289 ; gain = 0.000 ; free physical = 9852 ; free virtual = 26536
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 2357.289 ; gain = 64.031 ; free physical = 9994 ; free virtual = 26679
+INFO: [Common 17-1381] The checkpoint '/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 20 01:43:49 2021...

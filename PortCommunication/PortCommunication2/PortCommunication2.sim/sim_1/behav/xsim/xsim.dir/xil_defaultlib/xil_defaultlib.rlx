@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sim_1/new/testbench.v,1624127190,verilog,,,,testbench,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/resv_urt.v,1624124203,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/send_urt.v,,resv_urt,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/send_urt.v,1624124350,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/top.v,,send_urt,,,,,,,,
+/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sources_1/new/top.v,1624118525,verilog,,/home/houyayue/hodepoint/TextCode/PortCommunication/PortCommunication2/PortCommunication2.srcs/sim_1/new/testbench.v,,top,,,,,,,,
