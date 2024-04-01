@@ -13,9 +13,9 @@ si=round(si*(2^(N-1)-1));
 f_s=si/max(abs(si));
 Q_s=round(f_s*(2^(N-1)-1));
 subplot(211);plot(t,Q_s);
-xlabel('时间(s)','fontsize',8);
-ylabel('幅度(v)','fontsize',8);
-title('时域信号波形','fontsize',8);
+xlabel('time(s)','fontsize',8);
+ylabel('manitude(v)','fontsize',8);
+title('time-domain signal','fontsize',8);
 
 
 f=abs(fft(si,L));
@@ -23,9 +23,9 @@ ft=[0:(Fs/L):Fs/2]*(10^(-3));
 f1=f(1:length(ft));
 f1=f1/max(f1);
 subplot(212);plot(ft,f1);
-xlabel('频率(kHz)','fontsize',8);
-ylabel('幅频(v)','fontsize',8);
-title('幅频响应','fontsize',8);
+xlabel('frequency(kHz)','fontsize',8);
+ylabel('manitude(v)','fontsize',8);
+title('amplitude-frequency response','fontsize',8);
 
 fid=fopen('\home\houyayue\hodepoint\TextCode\BlueModule\SinIn.txt','w');
 for k=1:length(Q_s)
